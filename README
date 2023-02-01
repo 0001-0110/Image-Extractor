@@ -1,0 +1,5 @@
+To use this code:
+Put all of your videos int the `Inputs` folder
+Execute the program
+A new folder is going to be created in the `Outputs` folder
+This new folder is going to contain every frame from the video
