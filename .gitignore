@@ -1,0 +1,6 @@
+# Ignore all videos inside the Inputs folder and all of the result insode the Outputs folder
+/[Ii]nputs/*
+/[Oo]utputs/*
+
+# Ignore compilation
+/*.exe
