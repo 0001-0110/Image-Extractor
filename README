@@ -1,5 +1,13 @@
-To use this code:
-Put all of your videos int the `Inputs` folder
-Execute the program
-A new folder is going to be created in the `Outputs` folder
+To use this program:
+- Put all of your videos inside the `Inputs` folder
+- Execute the program
+
+For each video, a new folder is going to be created in the `Outputs` folder
 This new folder is going to contain every frame from the video
+
+Pour utiliser ce programme:
+- Mettre toutes les videos a extraire dans le dossier `Inputs`
+- Executer le programme
+
+Pour chaque video, un nouveau dossier sera creer dans le dossier `Outputs`
+Ce nouveau dossier contiendra toutes les images de la video
