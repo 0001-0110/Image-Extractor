@@ -1,3 +1,5 @@
+### EN ###
+
 To use this program:
 - Put all of your videos inside the `Inputs` folder
 - Execute the program
@@ -5,9 +7,15 @@ To use this program:
 For each video, a new folder is going to be created in the `Outputs` folder
 This new folder is going to contain every frame from the video
 
+To extract again a video, you need to delete the corresponding output folder
+
+### FR ###
+
 Pour utiliser ce programme:
 - Mettre toutes les videos a extraire dans le dossier `Inputs`
 - Executer le programme
 
 Pour chaque video, un nouveau dossier sera creer dans le dossier `Outputs`
 Ce nouveau dossier contiendra toutes les images de la video
+
+Pour extraire a nouveau une video deja traite, il suffit de supprimer le dossier correspondant
