@@ -58,6 +58,7 @@ class Program:
 
         # End of the program
         print(f"Program exited successfully: {processed} processed, {skipped} skipped in {time.time() - start_time}s")
+        input("Press any key to exit")
 
 class FileService:
 
@@ -70,7 +71,7 @@ class FileService:
 
     @staticmethod
     def create_folder(folder_path, folder_name):
-        os.mkdir(f"{folder_path}\{folder_name}")
+        os.mkdir(os.path.join(folder_path, folder_name))
 
     @staticmethod
     def delete_folder(folder_path):
@@ -94,7 +95,7 @@ class ImageExtractor:
         # Convert all frames into an image
         for i in range(frame_number):
             success, frame = video.read()
-            cv2.imwrite(os.path.join(output_folder, f"{video_name}_{i:0<5}.jpg"), frame)
+            cv2.imwrite(os.path.join(output_folder, f"{video_name}_{i:0>9}.jpg"), frame)
 
 if __name__ == "__main__":
     Program(INPUT_FOLDER, OUTPUT_FOLDER).main()

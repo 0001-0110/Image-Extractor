@@ -3,4 +3,7 @@
 /[Oo]utputs/*
 
 # Ignore compilation
+/build/
+/dist/
 /*.exe
+/*.spec
